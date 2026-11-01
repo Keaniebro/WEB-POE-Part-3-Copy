@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Harmony Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="logo">Harmony Hub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Enquiry Content -->
+    <main class="page-content">
+        <section class="enquiry-header">
+            <h1>Product & Instrument Enquiry</h1>
+            <p>Looking for a specific model, custom brand order, or bulk institutional quote? Fill out the form below and our team will get back to you within 24 hours.</p>
+        </section>
+
+        <div class="form-container">
+            <form action="#" method="POST" id="enquiryForm">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="instrument">Instrument Category of Interest</label>
+                    <select id="instrument" name="instrument" required>
+                        <option value="" disabled selected>Select an instrument type</option>
+                        <option value="piano">Grand Acoustic Piano</option>
+                        <option value="keyboard">Digital Keyboard</option>
+                        <option value="guitar">Acoustic / Electric Guitar</option>
+                        <option value="violin">Orchestral Violin</option>
+                        <option value="drums">Professional Drum Kit</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Enquiry Details / Specific Brand Request</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about the specific brand, model, or delivery details you need..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Enquiry</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Harmony Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

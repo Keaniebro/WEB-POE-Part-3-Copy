@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Harmony Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="logo">Harmony Hub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Contact Content -->
+    <main class="page-content">
+        <section class="contact-header">
+            <h1>Get In Touch With Our Team</h1>
+            <p>Have questions about your order, tracking, or need expert instrument advice? Reach out to our support staff or visit one of our regional operational fulfillment hubs.</p>
+        </section>
+
+        <div class="contact-grid">
+            <!-- Contact Form Section -->
+            <div class="contact-form-box">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="c-name">Your Name</label>
+                        <input type="text" id="c-name" name="c-name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="c-email">Email Address</label>
+                        <input type="email" id="c-email" name="c-email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="c-message">Message</label>
+                        <textarea id="c-message" name="c-message" rows="4" placeholder="How can we help you today?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Regional Locations Section (Fulfilling POE Multiple Locations Rule) -->
+            <div class="locations-box">
+                <h2>Our Regional Hubs</h2>
+                
+                <div class="location-item">
+                    <h3>Cape Town Logistics Hub (Headquarters)</h3>
+                    <p><strong>Address:</strong> 42 Adderley Street, Cape Town Central, 8001</p>
+                    <p><strong>Phone:</strong> +27 (0)21 555 0192</p>
+                    <p><strong>Email:</strong> cpt@harmonyhub.co.za</p>
+                </div>
+
+                <div class="location-item">
+                    <h3>Johannesburg Fulfillment Center</h3>
+                    <p><strong>Address:</strong> 15 Fredman Drive, Sandton, Johannesburg, 2196</p>
+                    <p><strong>Phone:</strong> +27 (0)11 555 0148</p>
+                    <p><strong>Email:</strong> jhb@harmonyhub.co.za</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Harmony Hub. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
